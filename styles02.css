@@ -1,0 +1,158 @@
+
+body
+{
+    background: #262d33;
+    font-family: arial;
+    font-size: 16 px;
+}
+
+
+
+header 
+{
+    background-color: #485564;
+    color:white;
+    padding: 0.5em;
+    overflow: hidden;
+}
+
+
+
+header h1
+   {
+    font-size:1.2em;
+    font-weight: normal;
+    margin: 1em 70px 0 0;
+   }
+
+nav
+    {
+       background: rgba(53, 77, 178, 0.08);
+       padding: 0 0.5em;
+       position: relative;
+        box-shadow: rgba 
+         
+    }
+
+nav ul
+    {
+        list-style:none;
+        margin: 0;
+        padding:0;
+        margin: 0 80px 0 0 ;
+    }
+
+nav ul #publicar_nav
+    {
+       position: absolute;
+        right: 0;
+        top:-0.2em;
+        margin: 
+    }
+
+nav ul #publicar_nav a
+    {
+        background: rgb(210, 216, 239);
+        padding: 0.8em 0.5em;
+        text-decoration:none;
+        font-style:italic;
+        border-radius: 5px;
+        box-shadow: rgba(0,0,0,0.5) -5px 5px 18px;
+        text-shadow: rgba(0,0,0,0.5)-2px 5px 15px;
+    }        
+
+nav ul li
+    {
+        display: inline-block;
+        margin: 0 1em 0 0;
+    }
+
+nav ul li a
+    {
+         color:#262d33;
+         text-decoration: none;
+         padding:0.5em 0;
+         display: block;
+    }
+
+#contenido 
+{
+margin: 0.5em;
+}
+#contenido .item
+{
+    background:rgb(177, 183, 198);
+    border-bottom: 3px solid;
+    margin-bottom: 3em;
+    min-height:128px;
+    position: relative;
+        }
+
+#contenido .item .item_imagen img
+{
+    width: 85px;
+        
+}
+#contenido .item .item_imagen
+{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+#contenido .item .item_titulo
+{
+    font:1.2em;
+    font-style:italic;
+    padding: 1em 1em 0 0;
+}
+#contenido .item .item_titulo a
+{
+    color:#3f3d4a;
+    text-decoration:none;
+}
+#contenido .item .item_item_autor
+{
+    color: #1f4e84;
+}
+    #contenido .item .item_datos
+{
+margin: 1em 1em 0 0;
+text-align:right;
+}
+
+
+
+footer
+{
+        background: #262d33;
+        color:rgba (255,255,255,0.7);
+         text-align:center;
+        padding:1em;
+    }
+
+
+@media screen and (min-width :1000px)
+{
+    body
+    {
+        background-color:#5fc4a1;
+    }
+    
+    
+    #contenido
+   
+    {
+    overflow:hidden;
+    }
+    
+        #contenido .item
+    {
+        width:100%; 
+        float:left;
+        margin-right:1%
+  }
+    
+
+    
+    
+    
